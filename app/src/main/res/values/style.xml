@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavTextAppearance" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/ys_display_medium</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+</resources>

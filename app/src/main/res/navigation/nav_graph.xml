@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/airTicketsFragment">
+
+    <fragment
+        android:id="@+id/airTicketsFragment"
+        android:name="com.example.searchfortickets.airTickets.AirTicketsFragment"
+        android:label="fragment_air_tickets"
+        tools:layout="@layout/fragment_air_tickets" >
+        <action
+            android:id="@+id/action_airTicketsFragment_to_hotelsFragment"
+            app:destination="@id/hotelsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hotelsFragment"
+        android:name="com.example.searchfortickets.hotels.HotelsFragment"
+        android:label="fragment_hotels"
+        tools:layout="@layout/fragment_hotels" />
+    <fragment
+        android:id="@+id/smallFragment"
+        android:name="com.example.searchfortickets.small.SmallFragment"
+        android:label="fragment_small"
+        tools:layout="@layout/fragment_small" />
+    <fragment
+        android:id="@+id/subscriptionsFragment"
+        android:name="com.example.searchfortickets.subscriptions.SubscriptionsFragment"
+        android:label="fragment_subscriptions"
+        tools:layout="@layout/fragment_subscriptions" />
+    <fragment
+        android:id="@+id/profilFragment"
+        android:name="com.example.searchfortickets.profile.ProfileFragment"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" />
+</navigation>

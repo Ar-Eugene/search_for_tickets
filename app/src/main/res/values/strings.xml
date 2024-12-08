@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">SearchForTickets</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="air_tickets">Авиабилеты</string>
+    <string name="hotels">Отели</string>
+    <string name="small">Короче</string>
+    <string name="subscriptions">Подписки</string>
+    <string name="profile">Профиль</string>
+    <string name="hello_blank_hotels">Hello blank hotels</string>
+    <string name="hello_blank_profil">Hello blank profil</string>
+    <string name="hello_blank_small">Hello blank small\n</string>
+    <string name="hello_blank_subscriptions">Hello blank subscriptions</string>
+    <string name="search_air_tickets">Поиск дешевых\nавиабилетов</string>
 </resources>
