@@ -11,5 +11,7 @@
     <color name="blue">#2261BC</color>
     <color name="grey">#5E5F61</color>
     <color name="grey_text">#9F9F9F</color>
+    <color name="carview_grey">#3E3F43</color>
+    <color name="carview_back">#2F3035</color>
 
 </resources>

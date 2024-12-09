@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/airTicketsFragment"
-        android:name="com.example.searchfortickets.airTickets.AirTicketsFragment"
+        android:name="com.example.searchfortickets.airTickets.ui.AirTicketsFragment"
         android:label="fragment_air_tickets"
         tools:layout="@layout/fragment_air_tickets" >
         <action
