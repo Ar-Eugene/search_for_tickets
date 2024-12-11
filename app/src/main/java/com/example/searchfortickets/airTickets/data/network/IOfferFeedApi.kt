@@ -5,6 +5,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface IOfferFeedApi {
-    @GET("main/jsons/main.json")
-    suspend fun getOfferFeedJson(@Query("term") text: String): OfferFeedJsonResponse
+    @GET("main.json")
+    //@GET("refs/heads/main/jsons/main.json")
+    suspend fun getOfferFeedJson(): OfferFeedJsonResponse
 }
